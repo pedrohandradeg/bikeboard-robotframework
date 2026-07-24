@@ -9,7 +9,7 @@ ${BROWSER}        chromium
 *** Keywords ***
 Begin Web Test
     [Documentation]    Navega para a página inicial e verifica o título.
-    New Browser    ${BROWSER}    headless=Yes
+    New Browser    ${BROWSER}    headless=No
     
     New Context    viewport={'width': 1920, 'height': 1080}
     
